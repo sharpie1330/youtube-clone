@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Youtube Clone</title>
+  <script 
+  src="https://kit.fontawesome.com/dff1996749.js" 
+  crossorigin="anonymous">
+  </script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <i class="fab fa-youtube"></i>
+      <span class="title">Youtube</span>
+    </div>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+
+  <!-- Video Player -->
+  <section class="player">
+    <video controls autoplay src="video/HumanFallFlat.mp4"></video>
+  </section>
+
+  <div class="infoAndUpNext">
+    <!-- Video Info -->
+    <section class="info">
+      <!-- Metadata -->
+      <div class="metadata">
+        <ul class="hashtags">
+          <li>#HumanFallFlat</li>
+          <li>#RollerCoaster</li>
+          <li>#YHCompany</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">
+            [Human Fall Flat | 휴먼폴플랫] YH 컴퍼니 식구들과 함께한 놀이공원 추억여행 
+            (ft. 일렉트릭붓다, 앵셰비키, 애덤스미스, 프롤레타리아) "롤러코스터에서 떨어질 뻔 한 
+            엔터 식구들?!" [YH 게임실황 시리즈 #35]
+          </span>
+          <button class="moreBtn">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+        <span class="views">1M views 1 day ago</span>
+      </div>
+      <!-- Actions -->
+      <ul class="actions">
+        <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+        <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+        <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+        <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+        <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+      </ul>
+      <!-- Channel Description -->
+      <div class="channel">
+        <div class="metadata">
+          <img src="image/yh_logo.jpg" alt="">
+          <div class="info">
+            <span class="name">YH 엔터테인먼트</span>
+            <span class="subscribers">91.6k subscribers</span>
+          </div>
+        </div>
+        <button class="subscribe">subscribe</button>
+      </div>
+    </section>
+
+    <!-- Up Next -->
+    <section class="upNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="img">
+            <img src="image/Marriage.png" alt="">
+          </div>
+          <div class="info">
+            <span class="title">[StardewValley | 스타듀밸리]
+              사랑...그리고 결혼. 그들의 운명은?! [YH 게임실황 시리즈 #16]</span>
+            <span class="name">YH 엔터테인먼트</span>
+            <span class="views">32M views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img src="image/Party.png" alt="">
+          </div>
+          <div class="info">
+            <span class="title">[StardewValley | 스타듀밸리]
+              YH 사내커플 브라이덜 샤워! 둘이 잘 살아야 해! [YH 게임실황 시리즈 #16]</span>
+            <span class="name">YH 엔터테인먼트</span>
+            <span class="views">21M views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img src="image/WolfGirls.png" alt="">
+          </div>
+          <div class="info">
+            <span class="title">[HumanFallFlat | 휴먼폴플랫]
+              "거부할 수 없이 강렬한 이 느낌에 빠져버려 나를 놨어." 
+              그녀들 안의 늑대가 깨어난다...!
+              [YH 게임실황 시리즈 #35]</span>
+            <span class="name">YH 엔터테인먼트</span>
+            <span class="views">2M views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
